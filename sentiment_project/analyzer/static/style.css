@@ -1,0 +1,34 @@
+.sentiment-bar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.bar {
+    flex: 1;
+}
+
+.bar.red {
+    background-color: #dc3545;
+}
+
+.bar.yellow {
+    background-color: #ffc107;
+}
+
+.bar.green {
+    background-color: #28a745;
+}
+
+.indicator {
+    position: absolute;
+    top: -5px;
+    width: 4px;
+    height: 35px;
+    background-color: #000;
+    transition: left 0.8s ease;
+}
